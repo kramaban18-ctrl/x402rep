@@ -20,7 +20,7 @@ export async function GET(request: Request) {
     method: "GET",
     paymentData,
     payTo: "0xF6E5634148b4C1C600de85F66361A04BfB932a47",
-    network: Ethereum,
+    network: ethereum,
     price: {
       amount: "10000",
       asset: {
