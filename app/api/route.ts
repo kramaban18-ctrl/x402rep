@@ -19,7 +19,7 @@ export async function GET(request: Request) {
     resourceUrl: "http://localhost:3000/api",
     method: "GET",
     paymentData,
-    payTo: 0xF6E5634148b4C1C600de85F66361A04BfB932a47",
+    payTo: "0xF6E5634148b4C1C600de85F66361A04BfB932a47",
     network: abstractTestnet,
     price: {
       amount: "10000",
