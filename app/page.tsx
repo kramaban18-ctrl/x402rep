@@ -15,9 +15,7 @@ async function accessPremiumContent(wallet: Wallet) {
     fetch,
     client,
     wallet,
-    {
-      price: 10_000n, // 0.01 USDC if 6 decimals
-    }
+    BigInt(1 * 10 ** 6 / 100)
   );
 
   // Make a request that may require payment
