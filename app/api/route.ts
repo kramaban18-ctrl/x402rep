@@ -16,7 +16,7 @@ export async function GET(request: Request) {
 
   // Verify and process the payment
   const result = await settlePayment({
-    resourceUrl: "http://localhost:3000/api",
+    resourceUrl: "https://kramaban18-ctrl-x402rep-eh4k-9btsn42dv.vercel.app/api",
     method: "GET",
     paymentData,
     payTo: "0xF6E5634148b4C1C600de85F66361A04BfB932a47",
