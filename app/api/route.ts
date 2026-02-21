@@ -8,7 +8,7 @@ const client = createThirdwebClient({
 
 const thirdwebFacilitator = facilitator({
   client,
-  serverWalletAddress: process.env.THIRDWEB_SERVER_WALLET_ADDRESS!,
+  serverWalletAddress: "0xF6E5634148b4C1C600de85F66361A04BfB932a47",
 });
 
 export async function GET(request: Request) {
