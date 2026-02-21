@@ -20,11 +20,11 @@ export async function GET(request: Request) {
     method: "GET",
     paymentData,
     payTo: "0xF6E5634148b4C1C600de85F66361A04BfB932a47",
-    network: abstractTestnet,
+    network: ethereum,
     price: {
       amount: "10000",
       asset: {
-        address: "0xe4C7fBB0a626ed208021ccabA6Be1566905E2dFc",
+        address: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       },
     },
     facilitator: thirdwebFacilitator,
