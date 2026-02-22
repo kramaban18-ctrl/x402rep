@@ -19,7 +19,7 @@ async function accessPremiumContent(wallet: Wallet) {
   );
 
   // Make a request that may require payment
-  const response = await fetchWithPay("https://kramaban18-ctrl-x402rep-vjcs.vercel.app/api");
+  const response = await fetchWithPay("https://kramaban18-ctrl-x402rep-tdrg.vercel.app/api");
   const data = await response.json();
 
   console.log(data);
